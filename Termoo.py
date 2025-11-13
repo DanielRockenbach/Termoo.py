@@ -61,20 +61,21 @@ def menu():
 def main():
     while True:
         menu()
-        modo = (input("Selecione o modo de jogo: "))
-        if modo == 5:
+        modo = input("Selecione o modo de jogo (5, 6 ou 7): ").strip()
+        if modo == "5":
             dificuldade = palavras_5
             return termo(dificuldade)
-        elif modo == 6:
+        elif modo == "6":
             dificuldade = palavras_6
             return termo(dificuldade)
-        elif modo == 7:
+        elif modo == "7":
             dificuldade = palavras_7
             return termo(dificuldade)
         else:
-            print('Valor invalido. Digite 5,6 ou 7.')
+            print('VALOR INVALIDO. Digite 5,6 ou 7.')
             print("")
             continue
 
 
-main()
+if __name__ == "__main__":
+    main() 
