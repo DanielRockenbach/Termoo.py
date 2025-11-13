@@ -12,8 +12,9 @@
     - 5 para palavras de 5 letras, com 5 tentativas. 
     - 6 para palavras de 6 letras, com 6 tentativas.
     - 7 Para palavras de 7 letras, com 7 tentativas.
-4. Aproveite
-5. Para inciar novamente, exute novamente pelo terminal.
+4. Para inciar novamente, exute novamente pelo terminal.
+5. Aproveite
 
 # Requisitos
+
 - Python 3.13
